@@ -1,0 +1,186 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Activity Definition Standard v1.1.0",
+  "type": "array",
+  "items": {
+    "$ref": "#/$defs/activity"
+  },
+  "$defs": {
+    "activity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "name",
+        "category",
+        "modalities",
+        "movementPattern",
+        "activityType",
+        "primaryMuscles",
+        "secondaryMuscles",
+        "equipment",
+        "difficulty",
+        "laterality",
+        "description",
+        "instructions",
+        "tips",
+        "media",
+        "variations",
+        "tags",
+        "source"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 120
+        },
+        "category": {
+          "enum": [
+            "Balance",
+            "Breathwork",
+            "Cardio",
+            "Mindfulness",
+            "Mobility",
+            "Strength",
+            "Stretching"
+          ]
+        },
+        "modalities": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "Balance Training",
+              "Breathwork",
+              "Calisthenics",
+              "Cardio",
+              "Isometric",
+              "Meditation",
+              "Mindfulness",
+              "Mobility",
+              "Pilates",
+              "Plyometrics",
+              "Strength Training",
+              "Stretching",
+              "Tai Chi",
+              "Yoga"
+            ]
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "movementPattern": {
+          "type": "string",
+          "minLength": 1
+        },
+        "primaryMuscles": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "secondaryMuscles": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "equipment": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "difficulty": {
+          "enum": [
+            "Beginner",
+            "Intermediate",
+            "Advanced"
+          ]
+        },
+        "laterality": {
+          "enum": [
+            "bilateral",
+            "unilateral",
+            "alternating"
+          ]
+        },
+        "description": {
+          "type": "string"
+        },
+        "instructions": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 1
+        },
+        "tips": {
+          "type": "string"
+        },
+        "media": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "image",
+            "video"
+          ],
+          "properties": {
+            "image": {
+              "type": "string"
+            },
+            "video": {
+              "type": "string"
+            }
+          }
+        },
+        "variations": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+          },
+          "uniqueItems": true
+        },
+        "tags": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "source": {
+          "enum": [
+            "builtin",
+            "custom"
+          ]
+        },
+        "activityType": {
+          "type": "string",
+          "enum": [
+            "Breathing",
+            "Dynamic",
+            "Flow",
+            "Isometric",
+            "Meditation",
+            "Static Stretch"
+          ]
+        }
+      }
+    }
+  }
+}
