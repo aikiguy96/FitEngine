@@ -1,0 +1,350 @@
+[
+  {
+    "id": "push-up",
+    "name": "Push-Up",
+    "category": "Strength",
+    "movementPattern": "Horizontal Push",
+    "primaryMuscles": [
+      "Chest",
+      "Triceps"
+    ],
+    "secondaryMuscles": [
+      "Shoulders",
+      "Core"
+    ],
+    "equipment": [
+      "Bodyweight"
+    ],
+    "difficulty": "Beginner",
+    "laterality": "bilateral",
+    "description": "Beginner strength exercise focusing on chest,triceps.",
+    "instructions": [
+      "Start in a straight-arm plank with hands slightly wider than shoulders",
+      "Lower your chest while maintaining a straight body line",
+      "Press away from the floor to return to start"
+    ],
+    "tips": "Brace your trunk; keep elbows about 30\u201345\u00b0 from your sides",
+    "media": {
+      "image": "",
+      "video": ""
+    },
+    "variations": [],
+    "tags": [],
+    "source": "builtin",
+    "modalities": [
+      "Calisthenics"
+    ],
+    "activityType": "Dynamic"
+  },
+  {
+    "id": "warrior-three",
+    "name": "Warrior III",
+    "category": "Balance",
+    "modalities": [
+      "Yoga",
+      "Isometric"
+    ],
+    "activityType": "Isometric",
+    "movementPattern": "Single-Leg Stability",
+    "primaryMuscles": [
+      "Glutes",
+      "Core"
+    ],
+    "secondaryMuscles": [
+      "Hamstrings"
+    ],
+    "equipment": [
+      "Mat"
+    ],
+    "difficulty": "Intermediate",
+    "laterality": "unilateral",
+    "description": "Balance on one leg while extending the other leg and torso into a long line.",
+    "instructions": [
+      "Begin standing tall.",
+      "Hinge forward and extend one leg behind you.",
+      "Maintain a long spine, and return with control."
+    ],
+    "tips": "Keep hips level; use a wall for support if needed.",
+    "media": {
+      "image": "",
+      "video": ""
+    },
+    "variations": [],
+    "tags": [],
+    "source": "builtin"
+  },
+  {
+    "id": "wall-sit",
+    "name": "Wall Sit",
+    "category": "Strength",
+    "movementPattern": "Isometric Squat",
+    "primaryMuscles": [
+      "Quadriceps",
+      "Glutes"
+    ],
+    "secondaryMuscles": [],
+    "equipment": [
+      "Wall"
+    ],
+    "difficulty": "Beginner",
+    "laterality": "bilateral",
+    "description": "Beginner strength exercise focusing on quadriceps,glutes.",
+    "instructions": [
+      "Lean back against a wall",
+      "Slide into a comfortable partial squat",
+      "Hold with steady breathing"
+    ],
+    "tips": "Keep knees aligned with feet",
+    "media": {
+      "image": "",
+      "video": ""
+    },
+    "variations": [],
+    "tags": [],
+    "source": "builtin",
+    "modalities": [
+      "Strength Training",
+      "Isometric"
+    ],
+    "activityType": "Isometric"
+  },
+  {
+    "id": "pilates-hundred",
+    "name": "Pilates Hundred",
+    "category": "Strength",
+    "modalities": [
+      "Pilates"
+    ],
+    "activityType": "Dynamic",
+    "movementPattern": "Core Stability",
+    "primaryMuscles": [
+      "Core"
+    ],
+    "secondaryMuscles": [
+      "Hip Flexors"
+    ],
+    "equipment": [
+      "Mat"
+    ],
+    "difficulty": "Intermediate",
+    "laterality": "bilateral",
+    "description": "Pilates core exercise using controlled arm pulses and breathing.",
+    "instructions": [
+      "Lie on your back and lift your head comfortably.",
+      "Extend arms by your sides and pulse them with control.",
+      "Maintain trunk control while breathing smoothly."
+    ],
+    "tips": "Keep your neck relaxed; modify the leg position as needed.",
+    "media": {
+      "image": "",
+      "video": ""
+    },
+    "variations": [],
+    "tags": [],
+    "source": "builtin"
+  },
+  {
+    "id": "sun-salutation-flow",
+    "name": "Sun Salutation Flow",
+    "category": "Mobility",
+    "modalities": [
+      "Yoga",
+      "Mobility"
+    ],
+    "activityType": "Flow",
+    "movementPattern": "Full-Body Flow",
+    "primaryMuscles": [
+      "Core",
+      "Shoulders"
+    ],
+    "secondaryMuscles": [
+      "Legs"
+    ],
+    "equipment": [
+      "Mat"
+    ],
+    "difficulty": "Intermediate",
+    "laterality": "bilateral",
+    "description": "A connected movement flow linking standing, folding, and floor-based postures.",
+    "instructions": [
+      "Begin standing upright.",
+      "Move through a comfortable standing fold and extension.",
+      "Transition between floor and standing positions with control."
+    ],
+    "tips": "Move within a comfortable range and coordinate with natural breathing.",
+    "media": {
+      "image": "",
+      "video": ""
+    },
+    "variations": [],
+    "tags": [],
+    "source": "builtin"
+  },
+  {
+    "id": "box-breathing",
+    "name": "Box Breathing",
+    "category": "Breathwork",
+    "modalities": [
+      "Breathwork"
+    ],
+    "activityType": "Breathing",
+    "movementPattern": "Breathing Control",
+    "primaryMuscles": [],
+    "secondaryMuscles": [],
+    "equipment": [
+      "None"
+    ],
+    "difficulty": "Beginner",
+    "laterality": "bilateral",
+    "description": "A structured breathing practice with evenly spaced breath phases.",
+    "instructions": [
+      "Sit or stand in a comfortable position.",
+      "Follow the inhale, pause, exhale, and pause prompts specified by the routine.",
+      "Return to normal breathing if uncomfortable."
+    ],
+    "tips": "Avoid straining or forcing breath holds.",
+    "media": {
+      "image": "",
+      "video": ""
+    },
+    "variations": [],
+    "tags": [],
+    "source": "builtin"
+  },
+  {
+    "id": "mindful-breath-awareness",
+    "name": "Mindful Breath Awareness",
+    "category": "Mindfulness",
+    "modalities": [
+      "Meditation",
+      "Mindfulness"
+    ],
+    "activityType": "Meditation",
+    "movementPattern": "Attention Regulation",
+    "primaryMuscles": [],
+    "secondaryMuscles": [],
+    "equipment": [
+      "None"
+    ],
+    "difficulty": "Beginner",
+    "laterality": "bilateral",
+    "description": "A guided attention practice focused on observing the breath.",
+    "instructions": [
+      "Sit in a comfortable position.",
+      "Notice natural breathing without trying to change it.",
+      "Gently bring attention back when distracted."
+    ],
+    "tips": "Allow attention to return without judgment.",
+    "media": {
+      "image": "",
+      "video": ""
+    },
+    "variations": [],
+    "tags": [],
+    "source": "builtin"
+  },
+  {
+    "id": "body-scan-meditation",
+    "name": "Body Scan Meditation",
+    "category": "Mindfulness",
+    "modalities": [
+      "Meditation",
+      "Mindfulness"
+    ],
+    "activityType": "Meditation",
+    "movementPattern": "Body Awareness",
+    "primaryMuscles": [],
+    "secondaryMuscles": [],
+    "equipment": [
+      "Mat"
+    ],
+    "difficulty": "Beginner",
+    "laterality": "bilateral",
+    "description": "A mindfulness practice that guides attention through regions of the body.",
+    "instructions": [
+      "Find a comfortable seated or lying position.",
+      "Bring attention through body regions in sequence.",
+      "Notice sensations without needing to change them."
+    ],
+    "tips": "A neutral, comfortable posture is sufficient.",
+    "media": {
+      "image": "",
+      "video": ""
+    },
+    "variations": [],
+    "tags": [],
+    "source": "builtin"
+  },
+  {
+    "id": "tai-chi-weight-shift",
+    "name": "Tai Chi Weight Shift",
+    "category": "Balance",
+    "modalities": [
+      "Tai Chi",
+      "Balance Training"
+    ],
+    "activityType": "Flow",
+    "movementPattern": "Multi-Planar Movement",
+    "primaryMuscles": [
+      "Legs",
+      "Core"
+    ],
+    "secondaryMuscles": [],
+    "equipment": [
+      "None"
+    ],
+    "difficulty": "Intermediate",
+    "laterality": "alternating",
+    "description": "Slow controlled lateral weight shifting with relaxed posture.",
+    "instructions": [
+      "Stand with feet comfortably apart.",
+      "Move weight gradually onto one leg.",
+      "Return through center and shift to the other leg."
+    ],
+    "tips": "Keep knees soft and motions unhurried.",
+    "media": {
+      "image": "",
+      "video": ""
+    },
+    "variations": [],
+    "tags": [],
+    "source": "builtin"
+  },
+  {
+    "id": "lateral-bounds",
+    "name": "Lateral Bounds",
+    "category": "Cardio",
+    "modalities": [
+      "Plyometrics",
+      "Cardio"
+    ],
+    "activityType": "Dynamic",
+    "movementPattern": "Jump and Land",
+    "primaryMuscles": [
+      "Quadriceps",
+      "Glutes"
+    ],
+    "secondaryMuscles": [
+      "Calves"
+    ],
+    "equipment": [
+      "None"
+    ],
+    "difficulty": "Intermediate",
+    "laterality": "alternating",
+    "description": "Explosive side-to-side jumping with controlled landings.",
+    "instructions": [
+      "Stand ready with knees soft.",
+      "Jump laterally onto the opposite foot.",
+      "Land softly and stabilize before repeating."
+    ],
+    "tips": "Begin with small distances and prioritize controlled landings.",
+    "media": {
+      "image": "",
+      "video": ""
+    },
+    "variations": [],
+    "tags": [],
+    "source": "builtin"
+  }
+]
